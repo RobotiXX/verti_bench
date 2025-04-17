@@ -1,0 +1,1352 @@
+obstacle_density: medium
+obstacles:
+  rocks:
+  - position: {x: 5.8720252114057825, y: 27.276610929269943, z: 5.609940241804013}
+    scale: 1.1320104921100618
+  - position: {x: -30.208689237335733, y: -26.55187936316922, z: 3.648323550802709}
+    scale: 1.1011833780121745
+  - position: {x: -33.03009842887286, y: -6.590997429304576, z: 4.3026735684290305}
+    scale: 0.7124127720685245
+  - position: {x: 10.738813286822705, y: -33.145577851241086, z: 5.119671100319453}
+    scale: 1.0276372593559953
+  - position: {x: 54.9791050349302, y: 22.614377998360524, z: 3.890196078431373}
+    scale: 1.012851670205358
+  - position: {x: 35.448076598031776, y: -54.40837500055069, z: 4.1462978654104}
+    scale: 1.0083448811245137
+  - position: {x: 26.193910187186624, y: -9.301603597131063, z: 3.9918550574033316}
+    scale: 0.7074651019776281
+  - position: {x: 3.5189724383256262, y: -2.1462388619619617, z: 5.4825815035712395}
+    scale: 0.9580326865635347
+  - position: {x: -57.74322736327266, y: -47.73511480432492, z: 4.055228895536332}
+    scale: 0.7818689239060909
+  - position: {x: -43.527675010002895, y: -0.5381114620375698, z: 4.824140804903853}
+    scale: 1.0507228985011459
+  - position: {x: 25.146237207800183, y: 7.812107108298967, z: 4.011311734150151}
+    scale: 1.0075986127631196
+  - position: {x: 0.6424953757822642, y: -16.81136495807987, z: 5.303562327076269}
+    scale: 0.8828943711468311
+  - position: {x: 44.935326981241055, y: 2.4860293144663075, z: 5.3105098770410955}
+    scale: 1.0173952120468024
+  - position: {x: -22.61207190974518, y: 5.558657226824096, z: 4.699962884152364}
+    scale: 0.8975198171925431
+  - position: {x: 25.245536506910526, y: 20.236214387442665, z: 4.070395064634045}
+    scale: 1.0558898272804162
+  - position: {x: 5.294684729915314, y: 40.10532279364439, z: 4.446366855404892}
+    scale: 0.8653880685009203
+  - position: {x: 18.802260195971034, y: -42.8067284726545, z: 5.034781356866197}
+    scale: 0.7199196425795008
+  - position: {x: -13.676015259607535, y: -9.72929314991594, z: 4.7596047090961395}
+    scale: 1.1455743681324302
+  - position: {x: 55.04164238713388, y: -51.38369232612445, z: 3.7850261894065866}
+    scale: 0.9942568008302666
+  - position: {x: -2.403467663702294, y: -55.48582866651243, z: 4.968766816311228}
+    scale: 0.9978577228226004
+  trees:
+  - position: {x: -7.458421414828479, y: 20.946852377508534, z: 4.645519120597318}
+  - position: {x: -21.393045935586958, y: -18.09858450858662, z: 4.441685730889217}
+obstacles_flag: true
+positions:
+- goal: [-60.0, 7.34788079488412e-15, 1.7]
+  start: [60.0, 0.0, 1.7]
+- goal: [-48.54101966249685, -35.26711513754838, 1.7]
+  start: [48.54101966249685, 35.26711513754839, 1.7]
+- goal: [-18.541019662496854, -57.06339097770921, 1.7]
+  start: [18.541019662496847, 57.06339097770921, 1.7]
+- goal: [18.541019662496833, -57.06339097770922, 1.7]
+  start: [-18.54101966249684, 57.06339097770922, 1.7]
+- goal: [48.54101966249684, -35.2671151375484, 1.7]
+  start: [-48.54101966249684, 35.267115137548394, 1.7]
+- goal: [60.0, -1.469576158976824e-14, 1.7]
+  start: [-60.0, 7.34788079488412e-15, 1.7]
+- goal: [48.54101966249685, 35.26711513754837, 1.7]
+  start: [-48.54101966249685, -35.26711513754838, 1.7]
+- goal: [18.541019662496865, 57.06339097770921, 1.7]
+  start: [-18.541019662496854, -57.06339097770921, 1.7]
+- goal: [-18.541019662496826, 57.06339097770922, 1.7]
+  start: [18.541019662496833, -57.06339097770922, 1.7]
+- goal: [-48.541019662496836, 35.2671151375484, 1.7]
+  start: [48.54101966249684, -35.2671151375484, 1.7]
+terrain: {difficulty: high, is_flat: false, length: 64.5, max_height: 16.0, min_height: 0.0,
+  width: 64.5}
+terrain_type: deformable
+textures:
+- center_position: {x: -60.5, y: 60.5, z: 0.0}
+  index: [0, 0]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -51.5, y: 60.5, z: 0.0}
+  index: [0, 1]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -42.5, y: 60.5, z: 0.0}
+  index: [0, 2]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -33.5, y: 60.5, z: 0.0}
+  index: [0, 3]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -24.5, y: 60.5, z: 0.0}
+  index: [0, 4]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -15.5, y: 60.5, z: 0.0}
+  index: [0, 5]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -6.5, y: 60.5, z: 0.0}
+  index: [0, 6]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 2.5, y: 60.5, z: 0.0}
+  index: [0, 7]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 11.5, y: 60.5, z: 0.0}
+  index: [0, 8]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 20.5, y: 60.5, z: 0.0}
+  index: [0, 9]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 29.5, y: 60.5, z: 0.0}
+  index: [0, 10]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 38.5, y: 60.5, z: 0.0}
+  index: [0, 11]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 47.5, y: 60.5, z: 0.0}
+  index: [0, 12]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 56.5, y: 60.5, z: 0.0}
+  index: [0, 13]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 65.5, y: 60.5, z: 0.0}
+  index: [0, 14]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 74.5, y: 60.5, z: 0.0}
+  index: [0, 15]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -60.5, y: 51.5, z: 0.0}
+  index: [1, 0]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -51.5, y: 51.5, z: 0.0}
+  index: [1, 1]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -42.5, y: 51.5, z: 0.0}
+  index: [1, 2]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -33.5, y: 51.5, z: 0.0}
+  index: [1, 3]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -24.5, y: 51.5, z: 0.0}
+  index: [1, 4]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -15.5, y: 51.5, z: 0.0}
+  index: [1, 5]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -6.5, y: 51.5, z: 0.0}
+  index: [1, 6]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 2.5, y: 51.5, z: 0.0}
+  index: [1, 7]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 11.5, y: 51.5, z: 0.0}
+  index: [1, 8]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 20.5, y: 51.5, z: 0.0}
+  index: [1, 9]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 29.5, y: 51.5, z: 0.0}
+  index: [1, 10]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 38.5, y: 51.5, z: 0.0}
+  index: [1, 11]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 47.5, y: 51.5, z: 0.0}
+  index: [1, 12]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 56.5, y: 51.5, z: 0.0}
+  index: [1, 13]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 65.5, y: 51.5, z: 0.0}
+  index: [1, 14]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 74.5, y: 51.5, z: 0.0}
+  index: [1, 15]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -60.5, y: 42.5, z: 0.0}
+  index: [2, 0]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -51.5, y: 42.5, z: 0.0}
+  index: [2, 1]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -42.5, y: 42.5, z: 0.0}
+  index: [2, 2]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -33.5, y: 42.5, z: 0.0}
+  index: [2, 3]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -24.5, y: 42.5, z: 0.0}
+  index: [2, 4]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -15.5, y: 42.5, z: 0.0}
+  index: [2, 5]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -6.5, y: 42.5, z: 0.0}
+  index: [2, 6]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 2.5, y: 42.5, z: 0.0}
+  index: [2, 7]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 11.5, y: 42.5, z: 0.0}
+  index: [2, 8]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 20.5, y: 42.5, z: 0.0}
+  index: [2, 9]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 29.5, y: 42.5, z: 0.0}
+  index: [2, 10]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 38.5, y: 42.5, z: 0.0}
+  index: [2, 11]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 47.5, y: 42.5, z: 0.0}
+  index: [2, 12]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 56.5, y: 42.5, z: 0.0}
+  index: [2, 13]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 65.5, y: 42.5, z: 0.0}
+  index: [2, 14]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 74.5, y: 42.5, z: 0.0}
+  index: [2, 15]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -60.5, y: 33.5, z: 0.0}
+  index: [3, 0]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -51.5, y: 33.5, z: 0.0}
+  index: [3, 1]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -42.5, y: 33.5, z: 0.0}
+  index: [3, 2]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -33.5, y: 33.5, z: 0.0}
+  index: [3, 3]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -24.5, y: 33.5, z: 0.0}
+  index: [3, 4]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -15.5, y: 33.5, z: 0.0}
+  index: [3, 5]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -6.5, y: 33.5, z: 0.0}
+  index: [3, 6]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 2.5, y: 33.5, z: 0.0}
+  index: [3, 7]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 11.5, y: 33.5, z: 0.0}
+  index: [3, 8]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 20.5, y: 33.5, z: 0.0}
+  index: [3, 9]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 29.5, y: 33.5, z: 0.0}
+  index: [3, 10]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 38.5, y: 33.5, z: 0.0}
+  index: [3, 11]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 47.5, y: 33.5, z: 0.0}
+  index: [3, 12]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 56.5, y: 33.5, z: 0.0}
+  index: [3, 13]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 65.5, y: 33.5, z: 0.0}
+  index: [3, 14]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 74.5, y: 33.5, z: 0.0}
+  index: [3, 15]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -60.5, y: 24.5, z: 0.0}
+  index: [4, 0]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -51.5, y: 24.5, z: 0.0}
+  index: [4, 1]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -42.5, y: 24.5, z: 0.0}
+  index: [4, 2]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -33.5, y: 24.5, z: 0.0}
+  index: [4, 3]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -24.5, y: 24.5, z: 0.0}
+  index: [4, 4]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -15.5, y: 24.5, z: 0.0}
+  index: [4, 5]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -6.5, y: 24.5, z: 0.0}
+  index: [4, 6]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 2.5, y: 24.5, z: 0.0}
+  index: [4, 7]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 11.5, y: 24.5, z: 0.0}
+  index: [4, 8]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 20.5, y: 24.5, z: 0.0}
+  index: [4, 9]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 29.5, y: 24.5, z: 0.0}
+  index: [4, 10]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 38.5, y: 24.5, z: 0.0}
+  index: [4, 11]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 47.5, y: 24.5, z: 0.0}
+  index: [4, 12]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 56.5, y: 24.5, z: 0.0}
+  index: [4, 13]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 65.5, y: 24.5, z: 0.0}
+  index: [4, 14]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 74.5, y: 24.5, z: 0.0}
+  index: [4, 15]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -60.5, y: 15.5, z: 0.0}
+  index: [5, 0]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -51.5, y: 15.5, z: 0.0}
+  index: [5, 1]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -42.5, y: 15.5, z: 0.0}
+  index: [5, 2]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -33.5, y: 15.5, z: 0.0}
+  index: [5, 3]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -24.5, y: 15.5, z: 0.0}
+  index: [5, 4]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -15.5, y: 15.5, z: 0.0}
+  index: [5, 5]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -6.5, y: 15.5, z: 0.0}
+  index: [5, 6]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 2.5, y: 15.5, z: 0.0}
+  index: [5, 7]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 11.5, y: 15.5, z: 0.0}
+  index: [5, 8]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 20.5, y: 15.5, z: 0.0}
+  index: [5, 9]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 29.5, y: 15.5, z: 0.0}
+  index: [5, 10]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 38.5, y: 15.5, z: 0.0}
+  index: [5, 11]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 47.5, y: 15.5, z: 0.0}
+  index: [5, 12]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 56.5, y: 15.5, z: 0.0}
+  index: [5, 13]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 65.5, y: 15.5, z: 0.0}
+  index: [5, 14]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 74.5, y: 15.5, z: 0.0}
+  index: [5, 15]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -60.5, y: 6.5, z: 0.0}
+  index: [6, 0]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -51.5, y: 6.5, z: 0.0}
+  index: [6, 1]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -42.5, y: 6.5, z: 0.0}
+  index: [6, 2]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -33.5, y: 6.5, z: 0.0}
+  index: [6, 3]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -24.5, y: 6.5, z: 0.0}
+  index: [6, 4]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -15.5, y: 6.5, z: 0.0}
+  index: [6, 5]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -6.5, y: 6.5, z: 0.0}
+  index: [6, 6]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 2.5, y: 6.5, z: 0.0}
+  index: [6, 7]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 11.5, y: 6.5, z: 0.0}
+  index: [6, 8]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 20.5, y: 6.5, z: 0.0}
+  index: [6, 9]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 29.5, y: 6.5, z: 0.0}
+  index: [6, 10]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 38.5, y: 6.5, z: 0.0}
+  index: [6, 11]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 47.5, y: 6.5, z: 0.0}
+  index: [6, 12]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 56.5, y: 6.5, z: 0.0}
+  index: [6, 13]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 65.5, y: 6.5, z: 0.0}
+  index: [6, 14]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 74.5, y: 6.5, z: 0.0}
+  index: [6, 15]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -60.5, y: -2.5, z: 0.0}
+  index: [7, 0]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -51.5, y: -2.5, z: 0.0}
+  index: [7, 1]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -42.5, y: -2.5, z: 0.0}
+  index: [7, 2]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -33.5, y: -2.5, z: 0.0}
+  index: [7, 3]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -24.5, y: -2.5, z: 0.0}
+  index: [7, 4]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -15.5, y: -2.5, z: 0.0}
+  index: [7, 5]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -6.5, y: -2.5, z: 0.0}
+  index: [7, 6]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 2.5, y: -2.5, z: 0.0}
+  index: [7, 7]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 11.5, y: -2.5, z: 0.0}
+  index: [7, 8]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 20.5, y: -2.5, z: 0.0}
+  index: [7, 9]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 29.5, y: -2.5, z: 0.0}
+  index: [7, 10]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 38.5, y: -2.5, z: 0.0}
+  index: [7, 11]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 47.5, y: -2.5, z: 0.0}
+  index: [7, 12]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 56.5, y: -2.5, z: 0.0}
+  index: [7, 13]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 65.5, y: -2.5, z: 0.0}
+  index: [7, 14]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 74.5, y: -2.5, z: 0.0}
+  index: [7, 15]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -60.5, y: -11.5, z: 0.0}
+  index: [8, 0]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -51.5, y: -11.5, z: 0.0}
+  index: [8, 1]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -42.5, y: -11.5, z: 0.0}
+  index: [8, 2]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -33.5, y: -11.5, z: 0.0}
+  index: [8, 3]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -24.5, y: -11.5, z: 0.0}
+  index: [8, 4]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -15.5, y: -11.5, z: 0.0}
+  index: [8, 5]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -6.5, y: -11.5, z: 0.0}
+  index: [8, 6]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 2.5, y: -11.5, z: 0.0}
+  index: [8, 7]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 11.5, y: -11.5, z: 0.0}
+  index: [8, 8]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 20.5, y: -11.5, z: 0.0}
+  index: [8, 9]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 29.5, y: -11.5, z: 0.0}
+  index: [8, 10]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 38.5, y: -11.5, z: 0.0}
+  index: [8, 11]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 47.5, y: -11.5, z: 0.0}
+  index: [8, 12]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 56.5, y: -11.5, z: 0.0}
+  index: [8, 13]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 65.5, y: -11.5, z: 0.0}
+  index: [8, 14]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 74.5, y: -11.5, z: 0.0}
+  index: [8, 15]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -60.5, y: -20.5, z: 0.0}
+  index: [9, 0]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -51.5, y: -20.5, z: 0.0}
+  index: [9, 1]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -42.5, y: -20.5, z: 0.0}
+  index: [9, 2]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -33.5, y: -20.5, z: 0.0}
+  index: [9, 3]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -24.5, y: -20.5, z: 0.0}
+  index: [9, 4]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -15.5, y: -20.5, z: 0.0}
+  index: [9, 5]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -6.5, y: -20.5, z: 0.0}
+  index: [9, 6]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 2.5, y: -20.5, z: 0.0}
+  index: [9, 7]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 11.5, y: -20.5, z: 0.0}
+  index: [9, 8]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 20.5, y: -20.5, z: 0.0}
+  index: [9, 9]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 29.5, y: -20.5, z: 0.0}
+  index: [9, 10]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 38.5, y: -20.5, z: 0.0}
+  index: [9, 11]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 47.5, y: -20.5, z: 0.0}
+  index: [9, 12]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 56.5, y: -20.5, z: 0.0}
+  index: [9, 13]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 65.5, y: -20.5, z: 0.0}
+  index: [9, 14]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 74.5, y: -20.5, z: 0.0}
+  index: [9, 15]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -60.5, y: -29.5, z: 0.0}
+  index: [10, 0]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -51.5, y: -29.5, z: 0.0}
+  index: [10, 1]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -42.5, y: -29.5, z: 0.0}
+  index: [10, 2]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -33.5, y: -29.5, z: 0.0}
+  index: [10, 3]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -24.5, y: -29.5, z: 0.0}
+  index: [10, 4]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -15.5, y: -29.5, z: 0.0}
+  index: [10, 5]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -6.5, y: -29.5, z: 0.0}
+  index: [10, 6]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 2.5, y: -29.5, z: 0.0}
+  index: [10, 7]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 11.5, y: -29.5, z: 0.0}
+  index: [10, 8]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 20.5, y: -29.5, z: 0.0}
+  index: [10, 9]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 29.5, y: -29.5, z: 0.0}
+  index: [10, 10]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 38.5, y: -29.5, z: 0.0}
+  index: [10, 11]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 47.5, y: -29.5, z: 0.0}
+  index: [10, 12]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 56.5, y: -29.5, z: 0.0}
+  index: [10, 13]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 65.5, y: -29.5, z: 0.0}
+  index: [10, 14]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 74.5, y: -29.5, z: 0.0}
+  index: [10, 15]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -60.5, y: -38.5, z: 0.0}
+  index: [11, 0]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -51.5, y: -38.5, z: 0.0}
+  index: [11, 1]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -42.5, y: -38.5, z: 0.0}
+  index: [11, 2]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -33.5, y: -38.5, z: 0.0}
+  index: [11, 3]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -24.5, y: -38.5, z: 0.0}
+  index: [11, 4]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -15.5, y: -38.5, z: 0.0}
+  index: [11, 5]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -6.5, y: -38.5, z: 0.0}
+  index: [11, 6]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 2.5, y: -38.5, z: 0.0}
+  index: [11, 7]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 11.5, y: -38.5, z: 0.0}
+  index: [11, 8]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 20.5, y: -38.5, z: 0.0}
+  index: [11, 9]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 29.5, y: -38.5, z: 0.0}
+  index: [11, 10]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 38.5, y: -38.5, z: 0.0}
+  index: [11, 11]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 47.5, y: -38.5, z: 0.0}
+  index: [11, 12]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 56.5, y: -38.5, z: 0.0}
+  index: [11, 13]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 65.5, y: -38.5, z: 0.0}
+  index: [11, 14]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 74.5, y: -38.5, z: 0.0}
+  index: [11, 15]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -60.5, y: -47.5, z: 0.0}
+  index: [12, 0]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -51.5, y: -47.5, z: 0.0}
+  index: [12, 1]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -42.5, y: -47.5, z: 0.0}
+  index: [12, 2]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -33.5, y: -47.5, z: 0.0}
+  index: [12, 3]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -24.5, y: -47.5, z: 0.0}
+  index: [12, 4]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -15.5, y: -47.5, z: 0.0}
+  index: [12, 5]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -6.5, y: -47.5, z: 0.0}
+  index: [12, 6]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 2.5, y: -47.5, z: 0.0}
+  index: [12, 7]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 11.5, y: -47.5, z: 0.0}
+  index: [12, 8]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 20.5, y: -47.5, z: 0.0}
+  index: [12, 9]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 29.5, y: -47.5, z: 0.0}
+  index: [12, 10]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 38.5, y: -47.5, z: 0.0}
+  index: [12, 11]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 47.5, y: -47.5, z: 0.0}
+  index: [12, 12]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 56.5, y: -47.5, z: 0.0}
+  index: [12, 13]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 65.5, y: -47.5, z: 0.0}
+  index: [12, 14]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 74.5, y: -47.5, z: 0.0}
+  index: [12, 15]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -60.5, y: -56.5, z: 0.0}
+  index: [13, 0]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -51.5, y: -56.5, z: 0.0}
+  index: [13, 1]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -42.5, y: -56.5, z: 0.0}
+  index: [13, 2]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -33.5, y: -56.5, z: 0.0}
+  index: [13, 3]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -24.5, y: -56.5, z: 0.0}
+  index: [13, 4]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -15.5, y: -56.5, z: 0.0}
+  index: [13, 5]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -6.5, y: -56.5, z: 0.0}
+  index: [13, 6]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 2.5, y: -56.5, z: 0.0}
+  index: [13, 7]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 11.5, y: -56.5, z: 0.0}
+  index: [13, 8]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 20.5, y: -56.5, z: 0.0}
+  index: [13, 9]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 29.5, y: -56.5, z: 0.0}
+  index: [13, 10]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 38.5, y: -56.5, z: 0.0}
+  index: [13, 11]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 47.5, y: -56.5, z: 0.0}
+  index: [13, 12]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 56.5, y: -56.5, z: 0.0}
+  index: [13, 13]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 65.5, y: -56.5, z: 0.0}
+  index: [13, 14]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 74.5, y: -56.5, z: 0.0}
+  index: [13, 15]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -60.5, y: -65.5, z: 0.0}
+  index: [14, 0]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -51.5, y: -65.5, z: 0.0}
+  index: [14, 1]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -42.5, y: -65.5, z: 0.0}
+  index: [14, 2]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -33.5, y: -65.5, z: 0.0}
+  index: [14, 3]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -24.5, y: -65.5, z: 0.0}
+  index: [14, 4]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -15.5, y: -65.5, z: 0.0}
+  index: [14, 5]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -6.5, y: -65.5, z: 0.0}
+  index: [14, 6]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 2.5, y: -65.5, z: 0.0}
+  index: [14, 7]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 11.5, y: -65.5, z: 0.0}
+  index: [14, 8]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 20.5, y: -65.5, z: 0.0}
+  index: [14, 9]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 29.5, y: -65.5, z: 0.0}
+  index: [14, 10]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 38.5, y: -65.5, z: 0.0}
+  index: [14, 11]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 47.5, y: -65.5, z: 0.0}
+  index: [14, 12]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 56.5, y: -65.5, z: 0.0}
+  index: [14, 13]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 65.5, y: -65.5, z: 0.0}
+  index: [14, 14]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 74.5, y: -65.5, z: 0.0}
+  index: [14, 15]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -60.5, y: -74.5, z: 0.0}
+  index: [15, 0]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -51.5, y: -74.5, z: 0.0}
+  index: [15, 1]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -42.5, y: -74.5, z: 0.0}
+  index: [15, 2]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -33.5, y: -74.5, z: 0.0}
+  index: [15, 3]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -24.5, y: -74.5, z: 0.0}
+  index: [15, 4]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -15.5, y: -74.5, z: 0.0}
+  index: [15, 5]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: -6.5, y: -74.5, z: 0.0}
+  index: [15, 6]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 2.5, y: -74.5, z: 0.0}
+  index: [15, 7]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 11.5, y: -74.5, z: 0.0}
+  index: [15, 8]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 20.5, y: -74.5, z: 0.0}
+  index: [15, 9]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 29.5, y: -74.5, z: 0.0}
+  index: [15, 10]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 38.5, y: -74.5, z: 0.0}
+  index: [15, 11]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 47.5, y: -74.5, z: 0.0}
+  index: [15, 12]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 56.5, y: -74.5, z: 0.0}
+  index: [15, 13]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 65.5, y: -74.5, z: 0.0}
+  index: [15, 14]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg
+- center_position: {x: 74.5, y: -74.5, z: 0.0}
+  index: [15, 15]
+  is_deformable: true
+  terrain_type: snow
+  texture_file: terrain/textures/deformable/snow/snow3.jpg

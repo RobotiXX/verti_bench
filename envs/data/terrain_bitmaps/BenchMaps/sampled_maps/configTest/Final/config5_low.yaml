@@ -1,0 +1,1864 @@
+obstacle_density: medium
+obstacles:
+  rocks:
+  - position: {x: -56.624280644357285, y: 44.44962967682487, z: 1.7827032020754678}
+    scale: 1.0468949711008213
+  - position: {x: -14.643732824748938, y: 44.09944789730412, z: 1.408054748471802}
+    scale: 0.9483914948406795
+  - position: {x: 2.211973867547215, y: 9.933203636619048, z: 1.4994658722135419}
+    scale: 1.0945326747086888
+  - position: {x: 40.8596481922511, y: 17.27754566899779, z: 1.3128985257946029}
+    scale: 0.8394837000793385
+  - position: {x: -48.11546316570026, y: 50.70933635348372, z: 1.3877118418516328}
+    scale: 1.1237515333448025
+  - position: {x: -2.595775231121028, y: -36.943220882696146, z: 1.417997562752717}
+    scale: 1.007183941140028
+  - position: {x: 0.2254841878928957, y: -5.124733905400497, z: 1.526166472691704}
+    scale: 0.9572624986487155
+  - position: {x: -34.714970655657794, y: 29.724116669316757, z: 1.4690521757804726}
+    scale: 0.8447180866696534
+  - position: {x: -21.955971499167184, y: -10.020971097687685, z: 1.449091145520581}
+    scale: 1.047462303155333
+  - position: {x: 48.8065266853564, y: -14.66962750825553, z: 1.5220223112531899}
+    scale: 0.889458621822415
+  - position: {x: -25.720553727892423, y: 11.294008702791764, z: 1.4457276196663351}
+    scale: 0.8703986707682358
+  - position: {x: 37.15057075041881, y: 2.4995687143194516, z: 1.3839876685852184}
+    scale: 0.7022139880449001
+  - position: {x: 13.121306769955613, y: -7.488895435289763, z: 1.40238763392837}
+    scale: 0.9177373553934314
+  - position: {x: 25.902844541244242, y: 46.307621656100494, z: 1.5399627229572714}
+    scale: 0.8206747202100788
+  - position: {x: 0.2616679360011904, y: -26.511904567022494, z: 1.4144366450021162}
+    scale: 1.181890284123959
+  - position: {x: 34.322352117648165, y: 29.121598195826458, z: 1.4154439981518847}
+    scale: 1.1880511417241644
+  - position: {x: -44.2591993758578, y: -8.726364701445455, z: 1.4247958609389721}
+    scale: 0.7145808944350569
+  - position: {x: 0.19315021075648708, y: 21.491167831526184, z: 1.46068419321826}
+    scale: 0.8408417834807741
+  - position: {x: -45.36372796895395, y: -51.140112226272464, z: 1.4099796981027457}
+    scale: 0.8929867080887943
+  - position: {x: 25.598989337629693, y: -9.239989274179223, z: 1.60070980122944}
+    scale: 0.9369677444479343
+  trees:
+  - position: {x: -14.228966112701233, y: 29.101123186244138, z: 1.471010326798028}
+  - position: {x: -20.09416864292346, y: -41.604210244942124, z: 1.4051750968354726}
+obstacles_flag: true
+positions:
+- goal: [-60.0, 7.34788079488412e-15, 1.7]
+  start: [60.0, 0.0, 1.7]
+- goal: [-48.54101966249685, -35.26711513754838, 1.7]
+  start: [48.54101966249685, 35.26711513754839, 1.7]
+- goal: [-18.541019662496854, -57.06339097770921, 1.7]
+  start: [18.541019662496847, 57.06339097770921, 1.7]
+- goal: [18.541019662496833, -57.06339097770922, 1.7]
+  start: [-18.54101966249684, 57.06339097770922, 1.7]
+- goal: [48.54101966249684, -35.2671151375484, 1.7]
+  start: [-48.54101966249684, 35.267115137548394, 1.7]
+- goal: [60.0, -1.469576158976824e-14, 1.7]
+  start: [-60.0, 7.34788079488412e-15, 1.7]
+- goal: [48.54101966249685, 35.26711513754837, 1.7]
+  start: [-48.54101966249685, -35.26711513754838, 1.7]
+- goal: [18.541019662496865, 57.06339097770921, 1.7]
+  start: [-18.541019662496854, -57.06339097770921, 1.7]
+- goal: [-18.541019662496826, 57.06339097770922, 1.7]
+  start: [18.541019662496833, -57.06339097770922, 1.7]
+- goal: [-48.541019662496836, 35.2671151375484, 1.7]
+  start: [48.54101966249684, -35.2671151375484, 1.7]
+terrain: {difficulty: low, is_flat: false, length: 64.5, max_height: 4.8, min_height: 0.0,
+  width: 64.5}
+terrain_type: rigid
+textures:
+- center_position: {x: -60.5, y: 60.5, z: 0.0}
+  friction: 0.5503648996308494
+  index: [0, 0]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -51.5, y: 60.5, z: 0.0}
+  friction: 0.6524087785011606
+  index: [0, 1]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -42.5, y: 60.5, z: 0.0}
+  friction: 0.6376777540658325
+  index: [0, 2]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -33.5, y: 60.5, z: 0.0}
+  friction: 0.7290430940581901
+  index: [0, 3]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: rock
+  texture_file: terrain/textures/rigid/rock/rock2.jpg
+- center_position: {x: -24.5, y: 60.5, z: 0.0}
+  friction: 0.6538680424823804
+  index: [0, 4]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: rock
+  texture_file: terrain/textures/rigid/rock/rock2.jpg
+- center_position: {x: -15.5, y: 60.5, z: 0.0}
+  friction: 0.7187671535805884
+  index: [0, 5]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: rock
+  texture_file: terrain/textures/rigid/rock/rock2.jpg
+- center_position: {x: -6.5, y: 60.5, z: 0.0}
+  friction: 0.6858765652359388
+  index: [0, 6]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: rock
+  texture_file: terrain/textures/rigid/rock/rock2.jpg
+- center_position: {x: 2.5, y: 60.5, z: 0.0}
+  friction: 0.46410294439190247
+  index: [0, 7]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: rock
+  texture_file: terrain/textures/rigid/rock/rock2.jpg
+- center_position: {x: 11.5, y: 60.5, z: 0.0}
+  friction: 0.6640425943695892
+  index: [0, 8]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: rock
+  texture_file: terrain/textures/rigid/rock/rock2.jpg
+- center_position: {x: 20.5, y: 60.5, z: 0.0}
+  friction: 0.8217861406763659
+  index: [0, 9]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: rock
+  texture_file: terrain/textures/rigid/rock/rock2.jpg
+- center_position: {x: 29.5, y: 60.5, z: 0.0}
+  friction: 0.43511305057853455
+  index: [0, 10]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 38.5, y: 60.5, z: 0.0}
+  friction: 0.5357136274181737
+  index: [0, 11]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 47.5, y: 60.5, z: 0.0}
+  friction: 0.42981476588674855
+  index: [0, 12]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 56.5, y: 60.5, z: 0.0}
+  friction: 0.4576337008204726
+  index: [0, 13]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 65.5, y: 60.5, z: 0.0}
+  friction: 0.500216963549485
+  index: [0, 14]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 74.5, y: 60.5, z: 0.0}
+  friction: 0.6154663944378675
+  index: [0, 15]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: -60.5, y: 51.5, z: 0.0}
+  friction: 0.6568594169533081
+  index: [1, 0]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -51.5, y: 51.5, z: 0.0}
+  friction: 0.6146877018848288
+  index: [1, 1]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -42.5, y: 51.5, z: 0.0}
+  friction: 0.615747069627248
+  index: [1, 2]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -33.5, y: 51.5, z: 0.0}
+  friction: 0.6111143719317543
+  index: [1, 3]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -24.5, y: 51.5, z: 0.0}
+  friction: 0.6260229741722689
+  index: [1, 4]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: rock
+  texture_file: terrain/textures/rigid/rock/rock2.jpg
+- center_position: {x: -15.5, y: 51.5, z: 0.0}
+  friction: 0.5269639464735877
+  index: [1, 5]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: rock
+  texture_file: terrain/textures/rigid/rock/rock2.jpg
+- center_position: {x: -6.5, y: 51.5, z: 0.0}
+  friction: 0.6162490817851691
+  index: [1, 6]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: rock
+  texture_file: terrain/textures/rigid/rock/rock2.jpg
+- center_position: {x: 2.5, y: 51.5, z: 0.0}
+  friction: 0.5708966289724647
+  index: [1, 7]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: rock
+  texture_file: terrain/textures/rigid/rock/rock2.jpg
+- center_position: {x: 11.5, y: 51.5, z: 0.0}
+  friction: 0.5012981320070415
+  index: [1, 8]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 20.5, y: 51.5, z: 0.0}
+  friction: 0.48231782378990345
+  index: [1, 9]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 29.5, y: 51.5, z: 0.0}
+  friction: 0.4679182110775714
+  index: [1, 10]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 38.5, y: 51.5, z: 0.0}
+  friction: 0.3953670526346271
+  index: [1, 11]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 47.5, y: 51.5, z: 0.0}
+  friction: 0.4628906034398632
+  index: [1, 12]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 56.5, y: 51.5, z: 0.0}
+  friction: 0.36166237281934627
+  index: [1, 13]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 65.5, y: 51.5, z: 0.0}
+  friction: 0.4811052983891206
+  index: [1, 14]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 74.5, y: 51.5, z: 0.0}
+  friction: 0.4847192119830342
+  index: [1, 15]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: -60.5, y: 42.5, z: 0.0}
+  friction: 0.6145750880638202
+  index: [2, 0]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -51.5, y: 42.5, z: 0.0}
+  friction: 0.5713610505067896
+  index: [2, 1]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -42.5, y: 42.5, z: 0.0}
+  friction: 0.7007169986629275
+  index: [2, 2]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -33.5, y: 42.5, z: 0.0}
+  friction: 0.5607844678312767
+  index: [2, 3]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -24.5, y: 42.5, z: 0.0}
+  friction: 0.6816762805831011
+  index: [2, 4]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -15.5, y: 42.5, z: 0.0}
+  friction: 0.6217398983312551
+  index: [2, 5]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: rock
+  texture_file: terrain/textures/rigid/rock/rock2.jpg
+- center_position: {x: -6.5, y: 42.5, z: 0.0}
+  friction: 0.43435853063057644
+  index: [2, 6]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 2.5, y: 42.5, z: 0.0}
+  friction: 0.506884669089963
+  index: [2, 7]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 11.5, y: 42.5, z: 0.0}
+  friction: 0.4564227771104353
+  index: [2, 8]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 20.5, y: 42.5, z: 0.0}
+  friction: 0.41098045891871215
+  index: [2, 9]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 29.5, y: 42.5, z: 0.0}
+  friction: 0.3764403865228465
+  index: [2, 10]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 38.5, y: 42.5, z: 0.0}
+  friction: 0.4126263711992394
+  index: [2, 11]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 47.5, y: 42.5, z: 0.0}
+  friction: 0.45499489980535296
+  index: [2, 12]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 56.5, y: 42.5, z: 0.0}
+  friction: 0.35426952043405624
+  index: [2, 13]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 65.5, y: 42.5, z: 0.0}
+  friction: 0.3705935079276108
+  index: [2, 14]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 74.5, y: 42.5, z: 0.0}
+  friction: 0.4544251140385107
+  index: [2, 15]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: -60.5, y: 33.5, z: 0.0}
+  friction: 0.5113777457806847
+  index: [3, 0]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -51.5, y: 33.5, z: 0.0}
+  friction: 0.7042994406533248
+  index: [3, 1]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -42.5, y: 33.5, z: 0.0}
+  friction: 0.5381773121466893
+  index: [3, 2]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -33.5, y: 33.5, z: 0.0}
+  friction: 0.5417977099208705
+  index: [3, 3]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -24.5, y: 33.5, z: 0.0}
+  friction: 0.6605352393919914
+  index: [3, 4]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -15.5, y: 33.5, z: 0.0}
+  friction: 0.41441448583934276
+  index: [3, 5]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: -6.5, y: 33.5, z: 0.0}
+  friction: 0.5434807085949835
+  index: [3, 6]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 2.5, y: 33.5, z: 0.0}
+  friction: 0.38854690978908385
+  index: [3, 7]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 11.5, y: 33.5, z: 0.0}
+  friction: 0.49693761725680796
+  index: [3, 8]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 20.5, y: 33.5, z: 0.0}
+  friction: 0.32797519684211984
+  index: [3, 9]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 29.5, y: 33.5, z: 0.0}
+  friction: 0.32236914020130913
+  index: [3, 10]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 38.5, y: 33.5, z: 0.0}
+  friction: 0.39629275209258963
+  index: [3, 11]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 47.5, y: 33.5, z: 0.0}
+  friction: 0.5028339609740551
+  index: [3, 12]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 56.5, y: 33.5, z: 0.0}
+  friction: 0.45850901599231064
+  index: [3, 13]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 65.5, y: 33.5, z: 0.0}
+  friction: 0.4078030185250362
+  index: [3, 14]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 74.5, y: 33.5, z: 0.0}
+  friction: 0.4737828867024662
+  index: [3, 15]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: -60.5, y: 24.5, z: 0.0}
+  friction: 0.654186403201085
+  index: [4, 0]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -51.5, y: 24.5, z: 0.0}
+  friction: 0.609321853410029
+  index: [4, 1]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -42.5, y: 24.5, z: 0.0}
+  friction: 0.5520635801979686
+  index: [4, 2]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -33.5, y: 24.5, z: 0.0}
+  friction: 0.5090391843551865
+  index: [4, 3]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -24.5, y: 24.5, z: 0.0}
+  friction: 0.5851589951034774
+  index: [4, 4]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -15.5, y: 24.5, z: 0.0}
+  friction: 0.6451039420619248
+  index: [4, 5]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -6.5, y: 24.5, z: 0.0}
+  friction: 0.46961750727087287
+  index: [4, 6]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 2.5, y: 24.5, z: 0.0}
+  friction: 0.49979043804314066
+  index: [4, 7]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 11.5, y: 24.5, z: 0.0}
+  friction: 0.4076664699305549
+  index: [4, 8]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 20.5, y: 24.5, z: 0.0}
+  friction: 0.4295345940027591
+  index: [4, 9]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 29.5, y: 24.5, z: 0.0}
+  friction: 0.42736455386558303
+  index: [4, 10]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 38.5, y: 24.5, z: 0.0}
+  friction: 0.4712146441665558
+  index: [4, 11]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 47.5, y: 24.5, z: 0.0}
+  friction: 0.5010865638597779
+  index: [4, 12]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 56.5, y: 24.5, z: 0.0}
+  friction: 0.4246802411463372
+  index: [4, 13]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 65.5, y: 24.5, z: 0.0}
+  friction: 0.5030284107398247
+  index: [4, 14]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 74.5, y: 24.5, z: 0.0}
+  friction: 0.6733610416154566
+  index: [4, 15]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: -60.5, y: 15.5, z: 0.0}
+  friction: 0.5030396240453378
+  index: [5, 0]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -51.5, y: 15.5, z: 0.0}
+  friction: 0.6430367424476883
+  index: [5, 1]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -42.5, y: 15.5, z: 0.0}
+  friction: 0.7005614981730852
+  index: [5, 2]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -33.5, y: 15.5, z: 0.0}
+  friction: 0.5808141701595824
+  index: [5, 3]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -24.5, y: 15.5, z: 0.0}
+  friction: 0.646398849945123
+  index: [5, 4]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -15.5, y: 15.5, z: 0.0}
+  friction: 0.41310184066217215
+  index: [5, 5]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -6.5, y: 15.5, z: 0.0}
+  friction: 0.36533664966311
+  index: [5, 6]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: 2.5, y: 15.5, z: 0.0}
+  friction: 0.5957412071953894
+  index: [5, 7]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 11.5, y: 15.5, z: 0.0}
+  friction: 0.47911499685483067
+  index: [5, 8]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 20.5, y: 15.5, z: 0.0}
+  friction: 0.4217237320086518
+  index: [5, 9]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 29.5, y: 15.5, z: 0.0}
+  friction: 0.4061432403642591
+  index: [5, 10]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: wood
+  texture_file: terrain/textures/rigid/wood/wood2.jpg
+- center_position: {x: 38.5, y: 15.5, z: 0.0}
+  friction: 0.40599898031901616
+  index: [5, 11]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 47.5, y: 15.5, z: 0.0}
+  friction: 0.5974968561723454
+  index: [5, 12]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 56.5, y: 15.5, z: 0.0}
+  friction: 0.381775674923022
+  index: [5, 13]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 65.5, y: 15.5, z: 0.0}
+  friction: 0.44886416105001403
+  index: [5, 14]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 74.5, y: 15.5, z: 0.0}
+  friction: 0.5438938353054267
+  index: [5, 15]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: -60.5, y: 6.5, z: 0.0}
+  friction: 0.5970048489784102
+  index: [6, 0]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -51.5, y: 6.5, z: 0.0}
+  friction: 0.6532964514567442
+  index: [6, 1]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -42.5, y: 6.5, z: 0.0}
+  friction: 0.6114780500386338
+  index: [6, 2]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -33.5, y: 6.5, z: 0.0}
+  friction: 0.5435044233495178
+  index: [6, 3]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -24.5, y: 6.5, z: 0.0}
+  friction: 0.41844156817287953
+  index: [6, 4]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -15.5, y: 6.5, z: 0.0}
+  friction: 0.26387942963255406
+  index: [6, 5]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -6.5, y: 6.5, z: 0.0}
+  friction: 0.3847796606746614
+  index: [6, 6]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: 2.5, y: 6.5, z: 0.0}
+  friction: 0.4046811729572827
+  index: [6, 7]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: 11.5, y: 6.5, z: 0.0}
+  friction: 0.34743328267333184
+  index: [6, 8]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: 20.5, y: 6.5, z: 0.0}
+  friction: 0.6181900914865557
+  index: [6, 9]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 29.5, y: 6.5, z: 0.0}
+  friction: 0.6341194917793338
+  index: [6, 10]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 38.5, y: 6.5, z: 0.0}
+  friction: 0.5771963029446096
+  index: [6, 11]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 47.5, y: 6.5, z: 0.0}
+  friction: 0.5790593459137913
+  index: [6, 12]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 56.5, y: 6.5, z: 0.0}
+  friction: 0.6156338136633445
+  index: [6, 13]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 65.5, y: 6.5, z: 0.0}
+  friction: 0.7674968177742804
+  index: [6, 14]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 74.5, y: 6.5, z: 0.0}
+  friction: 0.35177095429675176
+  index: [6, 15]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: -60.5, y: -2.5, z: 0.0}
+  friction: 0.5738511843457239
+  index: [7, 0]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -51.5, y: -2.5, z: 0.0}
+  friction: 0.6933515927538753
+  index: [7, 1]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -42.5, y: -2.5, z: 0.0}
+  friction: 0.5666015243258483
+  index: [7, 2]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -33.5, y: -2.5, z: 0.0}
+  friction: 0.4423064125675754
+  index: [7, 3]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -24.5, y: -2.5, z: 0.0}
+  friction: 0.39556236883709456
+  index: [7, 4]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -15.5, y: -2.5, z: 0.0}
+  friction: 0.4181089110977097
+  index: [7, 5]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -6.5, y: -2.5, z: 0.0}
+  friction: 0.4173599151007547
+  index: [7, 6]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: 2.5, y: -2.5, z: 0.0}
+  friction: 0.3973326690579153
+  index: [7, 7]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: 11.5, y: -2.5, z: 0.0}
+  friction: 0.7767528901425866
+  index: [7, 8]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 20.5, y: -2.5, z: 0.0}
+  friction: 0.519237708569412
+  index: [7, 9]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 29.5, y: -2.5, z: 0.0}
+  friction: 0.4866072117190068
+  index: [7, 10]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 38.5, y: -2.5, z: 0.0}
+  friction: 0.7104962860958163
+  index: [7, 11]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 47.5, y: -2.5, z: 0.0}
+  friction: 0.4683313670976482
+  index: [7, 12]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 56.5, y: -2.5, z: 0.0}
+  friction: 0.5396544515106558
+  index: [7, 13]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 65.5, y: -2.5, z: 0.0}
+  friction: 0.533389970291581
+  index: [7, 14]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 74.5, y: -2.5, z: 0.0}
+  friction: 0.5907372546716574
+  index: [7, 15]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: -60.5, y: -11.5, z: 0.0}
+  friction: 0.5489334566678837
+  index: [8, 0]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -51.5, y: -11.5, z: 0.0}
+  friction: 0.6165135145820658
+  index: [8, 1]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -42.5, y: -11.5, z: 0.0}
+  friction: 0.3310572550562968
+  index: [8, 2]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -33.5, y: -11.5, z: 0.0}
+  friction: 0.4247883084579509
+  index: [8, 3]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -24.5, y: -11.5, z: 0.0}
+  friction: 0.36419082745348774
+  index: [8, 4]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -15.5, y: -11.5, z: 0.0}
+  friction: 0.2951319004831473
+  index: [8, 5]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -6.5, y: -11.5, z: 0.0}
+  friction: 0.3310783915780272
+  index: [8, 6]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: 2.5, y: -11.5, z: 0.0}
+  friction: 0.3385993101945905
+  index: [8, 7]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: 11.5, y: -11.5, z: 0.0}
+  friction: 0.5366961420867526
+  index: [8, 8]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 20.5, y: -11.5, z: 0.0}
+  friction: 0.45655082244306805
+  index: [8, 9]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 29.5, y: -11.5, z: 0.0}
+  friction: 0.8662692587536672
+  index: [8, 10]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 38.5, y: -11.5, z: 0.0}
+  friction: 0.5746254663809091
+  index: [8, 11]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 47.5, y: -11.5, z: 0.0}
+  friction: 0.37922968849729355
+  index: [8, 12]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 56.5, y: -11.5, z: 0.0}
+  friction: 0.5303638334932969
+  index: [8, 13]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 65.5, y: -11.5, z: 0.0}
+  friction: 0.6202514701538644
+  index: [8, 14]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 74.5, y: -11.5, z: 0.0}
+  friction: 0.2538801379310622
+  index: [8, 15]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: -60.5, y: -20.5, z: 0.0}
+  friction: 0.5533578121711814
+  index: [9, 0]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: clay
+  texture_file: terrain/textures/rigid/clay/clay2.jpg
+- center_position: {x: -51.5, y: -20.5, z: 0.0}
+  friction: 0.35855701878794827
+  index: [9, 1]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -42.5, y: -20.5, z: 0.0}
+  friction: 0.41310353037290726
+  index: [9, 2]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -33.5, y: -20.5, z: 0.0}
+  friction: 0.3434208906309859
+  index: [9, 3]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -24.5, y: -20.5, z: 0.0}
+  friction: 0.38657875224947463
+  index: [9, 4]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -15.5, y: -20.5, z: 0.0}
+  friction: 0.3131782484880587
+  index: [9, 5]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -6.5, y: -20.5, z: 0.0}
+  friction: 0.27443673683194425
+  index: [9, 6]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: 2.5, y: -20.5, z: 0.0}
+  friction: 0.48775196896593664
+  index: [9, 7]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: 11.5, y: -20.5, z: 0.0}
+  friction: 0.4072722396501458
+  index: [9, 8]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 20.5, y: -20.5, z: 0.0}
+  friction: 0.4590732282770725
+  index: [9, 9]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 29.5, y: -20.5, z: 0.0}
+  friction: 0.6180996917884776
+  index: [9, 10]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 38.5, y: -20.5, z: 0.0}
+  friction: 0.5582589161794889
+  index: [9, 11]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 47.5, y: -20.5, z: 0.0}
+  friction: 0.526479070334868
+  index: [9, 12]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 56.5, y: -20.5, z: 0.0}
+  friction: 0.6522239255473654
+  index: [9, 13]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 65.5, y: -20.5, z: 0.0}
+  friction: 0.5529299695259153
+  index: [9, 14]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 74.5, y: -20.5, z: 0.0}
+  friction: 0.4957273619097874
+  index: [9, 15]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: dirt
+  texture_file: terrain/textures/rigid/dirt/dirt2.jpg
+- center_position: {x: -60.5, y: -29.5, z: 0.0}
+  friction: 0.38231307309180734
+  index: [10, 0]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -51.5, y: -29.5, z: 0.0}
+  friction: 0.19778786539886214
+  index: [10, 1]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -42.5, y: -29.5, z: 0.0}
+  friction: 0.2553302119607846
+  index: [10, 2]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -33.5, y: -29.5, z: 0.0}
+  friction: 0.4242178103110212
+  index: [10, 3]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -24.5, y: -29.5, z: 0.0}
+  friction: 0.42042603305455073
+  index: [10, 4]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -15.5, y: -29.5, z: 0.0}
+  friction: 0.333844634474703
+  index: [10, 5]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -6.5, y: -29.5, z: 0.0}
+  friction: 0.31686281716685505
+  index: [10, 6]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: 2.5, y: -29.5, z: 0.0}
+  friction: 0.41049594905330655
+  index: [10, 7]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: 11.5, y: -29.5, z: 0.0}
+  friction: 0.513587833155642
+  index: [10, 8]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 20.5, y: -29.5, z: 0.0}
+  friction: 0.4369456233564102
+  index: [10, 9]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 29.5, y: -29.5, z: 0.0}
+  friction: 0.5502899691622388
+  index: [10, 10]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 38.5, y: -29.5, z: 0.0}
+  friction: 0.4199476656554202
+  index: [10, 11]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 47.5, y: -29.5, z: 0.0}
+  friction: 0.5526254462114166
+  index: [10, 12]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 56.5, y: -29.5, z: 0.0}
+  friction: 0.544776912804405
+  index: [10, 13]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 65.5, y: -29.5, z: 0.0}
+  friction: 0.5250051267410696
+  index: [10, 14]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: dirt
+  texture_file: terrain/textures/rigid/dirt/dirt2.jpg
+- center_position: {x: 74.5, y: -29.5, z: 0.0}
+  friction: 0.6334471598061778
+  index: [10, 15]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: dirt
+  texture_file: terrain/textures/rigid/dirt/dirt2.jpg
+- center_position: {x: -60.5, y: -38.5, z: 0.0}
+  friction: 0.29790578666399403
+  index: [11, 0]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -51.5, y: -38.5, z: 0.0}
+  friction: 0.2615497092528616
+  index: [11, 1]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -42.5, y: -38.5, z: 0.0}
+  friction: 0.4773278430636351
+  index: [11, 2]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -33.5, y: -38.5, z: 0.0}
+  friction: 0.25320338064150716
+  index: [11, 3]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -24.5, y: -38.5, z: 0.0}
+  friction: 0.34329480867288925
+  index: [11, 4]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -15.5, y: -38.5, z: 0.0}
+  friction: 0.32334283551606574
+  index: [11, 5]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -6.5, y: -38.5, z: 0.0}
+  friction: 0.41834932117522017
+  index: [11, 6]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: 2.5, y: -38.5, z: 0.0}
+  friction: 0.39900036747708606
+  index: [11, 7]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: 11.5, y: -38.5, z: 0.0}
+  friction: 0.6279111779833126
+  index: [11, 8]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 20.5, y: -38.5, z: 0.0}
+  friction: 0.6763186405018007
+  index: [11, 9]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 29.5, y: -38.5, z: 0.0}
+  friction: 0.5544646352704579
+  index: [11, 10]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 38.5, y: -38.5, z: 0.0}
+  friction: 0.5991351960971818
+  index: [11, 11]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 47.5, y: -38.5, z: 0.0}
+  friction: 0.7388930652223558
+  index: [11, 12]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 56.5, y: -38.5, z: 0.0}
+  friction: 0.5680086910182319
+  index: [11, 13]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: dirt
+  texture_file: terrain/textures/rigid/dirt/dirt2.jpg
+- center_position: {x: 65.5, y: -38.5, z: 0.0}
+  friction: 0.7657851119821967
+  index: [11, 14]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: dirt
+  texture_file: terrain/textures/rigid/dirt/dirt2.jpg
+- center_position: {x: 74.5, y: -38.5, z: 0.0}
+  friction: 0.599308500186796
+  index: [11, 15]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: dirt
+  texture_file: terrain/textures/rigid/dirt/dirt2.jpg
+- center_position: {x: -60.5, y: -47.5, z: 0.0}
+  friction: 0.41557202584476755
+  index: [12, 0]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -51.5, y: -47.5, z: 0.0}
+  friction: 0.4207350721736978
+  index: [12, 1]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -42.5, y: -47.5, z: 0.0}
+  friction: 0.31947732217229907
+  index: [12, 2]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -33.5, y: -47.5, z: 0.0}
+  friction: 0.4304623575483401
+  index: [12, 3]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -24.5, y: -47.5, z: 0.0}
+  friction: 0.32443764357600835
+  index: [12, 4]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -15.5, y: -47.5, z: 0.0}
+  friction: 0.41969788242002715
+  index: [12, 5]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -6.5, y: -47.5, z: 0.0}
+  friction: 0.34047831671591544
+  index: [12, 6]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: 2.5, y: -47.5, z: 0.0}
+  friction: 0.5326620816256971
+  index: [12, 7]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 11.5, y: -47.5, z: 0.0}
+  friction: 0.5500757162516995
+  index: [12, 8]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 20.5, y: -47.5, z: 0.0}
+  friction: 0.5947559858811277
+  index: [12, 9]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 29.5, y: -47.5, z: 0.0}
+  friction: 0.49872872781706995
+  index: [12, 10]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 38.5, y: -47.5, z: 0.0}
+  friction: 0.6631456159421776
+  index: [12, 11]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 47.5, y: -47.5, z: 0.0}
+  friction: 0.6465048455321165
+  index: [12, 12]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: dirt
+  texture_file: terrain/textures/rigid/dirt/dirt2.jpg
+- center_position: {x: 56.5, y: -47.5, z: 0.0}
+  friction: 0.6204666640061453
+  index: [12, 13]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: dirt
+  texture_file: terrain/textures/rigid/dirt/dirt2.jpg
+- center_position: {x: 65.5, y: -47.5, z: 0.0}
+  friction: 0.6921942117538163
+  index: [12, 14]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: dirt
+  texture_file: terrain/textures/rigid/dirt/dirt2.jpg
+- center_position: {x: 74.5, y: -47.5, z: 0.0}
+  friction: 0.5643310942945713
+  index: [12, 15]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: dirt
+  texture_file: terrain/textures/rigid/dirt/dirt2.jpg
+- center_position: {x: -60.5, y: -56.5, z: 0.0}
+  friction: 0.37552482601033116
+  index: [13, 0]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -51.5, y: -56.5, z: 0.0}
+  friction: 0.3219766888072798
+  index: [13, 1]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -42.5, y: -56.5, z: 0.0}
+  friction: 0.36960783402729286
+  index: [13, 2]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -33.5, y: -56.5, z: 0.0}
+  friction: 0.3940614958124603
+  index: [13, 3]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -24.5, y: -56.5, z: 0.0}
+  friction: 0.40667574659017747
+  index: [13, 4]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -15.5, y: -56.5, z: 0.0}
+  friction: 0.31391353752649953
+  index: [13, 5]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -6.5, y: -56.5, z: 0.0}
+  friction: 0.3578251097944347
+  index: [13, 6]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: 2.5, y: -56.5, z: 0.0}
+  friction: 0.4325025997870925
+  index: [13, 7]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 11.5, y: -56.5, z: 0.0}
+  friction: 0.38946138855309176
+  index: [13, 8]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 20.5, y: -56.5, z: 0.0}
+  friction: 0.5706236326509516
+  index: [13, 9]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 29.5, y: -56.5, z: 0.0}
+  friction: 0.6194609949428334
+  index: [13, 10]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 38.5, y: -56.5, z: 0.0}
+  friction: 0.5902999015342821
+  index: [13, 11]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: dirt
+  texture_file: terrain/textures/rigid/dirt/dirt2.jpg
+- center_position: {x: 47.5, y: -56.5, z: 0.0}
+  friction: 0.7273272780425719
+  index: [13, 12]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: dirt
+  texture_file: terrain/textures/rigid/dirt/dirt2.jpg
+- center_position: {x: 56.5, y: -56.5, z: 0.0}
+  friction: 0.5574710549253701
+  index: [13, 13]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: dirt
+  texture_file: terrain/textures/rigid/dirt/dirt2.jpg
+- center_position: {x: 65.5, y: -56.5, z: 0.0}
+  friction: 0.5505928382070383
+  index: [13, 14]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: dirt
+  texture_file: terrain/textures/rigid/dirt/dirt2.jpg
+- center_position: {x: 74.5, y: -56.5, z: 0.0}
+  friction: 0.6261985662575321
+  index: [13, 15]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: dirt
+  texture_file: terrain/textures/rigid/dirt/dirt2.jpg
+- center_position: {x: -60.5, y: -65.5, z: 0.0}
+  friction: 0.3189979238738851
+  index: [14, 0]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -51.5, y: -65.5, z: 0.0}
+  friction: 0.17223725394369038
+  index: [14, 1]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -42.5, y: -65.5, z: 0.0}
+  friction: 0.39732239613235454
+  index: [14, 2]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -33.5, y: -65.5, z: 0.0}
+  friction: 0.253884827074829
+  index: [14, 3]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -24.5, y: -65.5, z: 0.0}
+  friction: 0.3525620290027151
+  index: [14, 4]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -15.5, y: -65.5, z: 0.0}
+  friction: 0.4053253183741483
+  index: [14, 5]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -6.5, y: -65.5, z: 0.0}
+  friction: 0.2859050689036555
+  index: [14, 6]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: 2.5, y: -65.5, z: 0.0}
+  friction: 0.5221032397875698
+  index: [14, 7]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 11.5, y: -65.5, z: 0.0}
+  friction: 0.6982605304667935
+  index: [14, 8]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 20.5, y: -65.5, z: 0.0}
+  friction: 0.7156783371149867
+  index: [14, 9]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 29.5, y: -65.5, z: 0.0}
+  friction: 0.7451766846606789
+  index: [14, 10]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: dirt
+  texture_file: terrain/textures/rigid/dirt/dirt2.jpg
+- center_position: {x: 38.5, y: -65.5, z: 0.0}
+  friction: 0.6751444864283617
+  index: [14, 11]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: dirt
+  texture_file: terrain/textures/rigid/dirt/dirt2.jpg
+- center_position: {x: 47.5, y: -65.5, z: 0.0}
+  friction: 0.49808512545678363
+  index: [14, 12]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: dirt
+  texture_file: terrain/textures/rigid/dirt/dirt2.jpg
+- center_position: {x: 56.5, y: -65.5, z: 0.0}
+  friction: 0.6283480408296527
+  index: [14, 13]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: dirt
+  texture_file: terrain/textures/rigid/dirt/dirt2.jpg
+- center_position: {x: 65.5, y: -65.5, z: 0.0}
+  friction: 0.7814352897671218
+  index: [14, 14]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: dirt
+  texture_file: terrain/textures/rigid/dirt/dirt2.jpg
+- center_position: {x: 74.5, y: -65.5, z: 0.0}
+  friction: 0.5594918123635692
+  index: [14, 15]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: dirt
+  texture_file: terrain/textures/rigid/dirt/dirt2.jpg
+- center_position: {x: -60.5, y: -74.5, z: 0.0}
+  friction: 0.38825275257175984
+  index: [15, 0]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -51.5, y: -74.5, z: 0.0}
+  friction: 0.24226814997444843
+  index: [15, 1]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -42.5, y: -74.5, z: 0.0}
+  friction: 0.24005090619999092
+  index: [15, 2]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -33.5, y: -74.5, z: 0.0}
+  friction: 0.49209646322208855
+  index: [15, 3]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -24.5, y: -74.5, z: 0.0}
+  friction: 0.37230625639521714
+  index: [15, 4]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -15.5, y: -74.5, z: 0.0}
+  friction: 0.30744146333958744
+  index: [15, 5]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: -6.5, y: -74.5, z: 0.0}
+  friction: 0.45369150795726537
+  index: [15, 6]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: grass
+  texture_file: terrain/textures/rigid/grass/grass3.jpg
+- center_position: {x: 2.5, y: -74.5, z: 0.0}
+  friction: 0.6160807809421744
+  index: [15, 7]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 11.5, y: -74.5, z: 0.0}
+  friction: 0.6018569476719423
+  index: [15, 8]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: gravel
+  texture_file: terrain/textures/rigid/gravel/gravel2.jpg
+- center_position: {x: 20.5, y: -74.5, z: 0.0}
+  friction: 0.5925722782077878
+  index: [15, 9]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: dirt
+  texture_file: terrain/textures/rigid/dirt/dirt2.jpg
+- center_position: {x: 29.5, y: -74.5, z: 0.0}
+  friction: 0.47495970187109293
+  index: [15, 10]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: dirt
+  texture_file: terrain/textures/rigid/dirt/dirt2.jpg
+- center_position: {x: 38.5, y: -74.5, z: 0.0}
+  friction: 0.5540776004996656
+  index: [15, 11]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: dirt
+  texture_file: terrain/textures/rigid/dirt/dirt2.jpg
+- center_position: {x: 47.5, y: -74.5, z: 0.0}
+  friction: 0.5938612061006615
+  index: [15, 12]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: dirt
+  texture_file: terrain/textures/rigid/dirt/dirt2.jpg
+- center_position: {x: 56.5, y: -74.5, z: 0.0}
+  friction: 0.7316868147909095
+  index: [15, 13]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: dirt
+  texture_file: terrain/textures/rigid/dirt/dirt2.jpg
+- center_position: {x: 65.5, y: -74.5, z: 0.0}
+  friction: 0.7842745891244525
+  index: [15, 14]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: dirt
+  texture_file: terrain/textures/rigid/dirt/dirt2.jpg
+- center_position: {x: 74.5, y: -74.5, z: 0.0}
+  friction: 0.6189258350771959
+  index: [15, 15]
+  is_deformable: false
+  restitution: 0.01
+  terrain_type: dirt
+  texture_file: terrain/textures/rigid/dirt/dirt2.jpg

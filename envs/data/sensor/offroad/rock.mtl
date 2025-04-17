@@ -1,0 +1,12 @@
+# Blender 4.2.3 LTS MTL File: 'tree.blend1'
+# www.blender.org
+
+newmtl Material.001
+Ns 224.999985
+Ka 1.000000 1.000000 1.000000
+Ks 0.050000 0.050000 0.050000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Rock-Texture-Surface.jpg

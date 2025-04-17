@@ -1,0 +1,2 @@
+room1/** filter=lfs diff=lfs merge=lfs -text
+room2/** filter=lfs diff=lfs merge=lfs -text

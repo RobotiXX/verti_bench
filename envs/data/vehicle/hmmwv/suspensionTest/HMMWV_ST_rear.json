@@ -1,0 +1,9 @@
+{
+    "Name": "HMMWV Rear Suspension Test",
+    "Type": "SuspensionTestRig",
+
+    "Vehicle Input File": "hmmwv//vehicle/HMMWV_Vehicle.json",
+    "Test Axle Indices": [ 1 ],
+    "Initial Ride Height": 0.5,
+    "Displacement Limit": 0.15
+}
