@@ -6,8 +6,8 @@ Verti-Bench: A General and Scalable Off-Road Mobility Benchmark for Vertically C
 
 Robotics: Science and Systems (RSS) 2025
 
-[[Website]](https://cs.gmu.edu/~xiao/Research/Verti-Bench/)
-[[Arxiv]](https://arxiv.org/pdf/2502.11426)
+[[Website]](https://people.cs.gmu.edu/~xiao/Research/Verti-Bench/)
+[[Arxiv]](https://arxiv.org/abs/2502.11426)
 [[Video]](https://www.youtube.com/watch?v=O9VlMg3tnvo)
 
 <p align="center">
@@ -615,11 +615,10 @@ This project is released under the [MIT license](./LICENSE). Parts of this proje
 # Citation
 If you find our work useful, please consider citing us!
 ```bibtex
-@article{xu2025verti,
-  title={Verti-Bench: A General and Scalable Off-Road Mobility Benchmark for Vertically Challenging Terrain},
+@inproceedings{xu2025verti,
+  title={Verti-bench: A general and scalable off-road mobility benchmark for vertically challenging terrain},
   author={Xu, Tong and Pan, Chenhui and Rao, Madhan B and Datar, Aniket and Pokhrel, Anuj and Lu, Yuanjie and Xiao, Xuesu},
-  journal={arXiv e-prints},
-  pages={arXiv--2502},
-  year={2025}
+  booktitle={Robotics: Science and Systems (RSS) 2025},
+  year={2025},
 }
 ```
