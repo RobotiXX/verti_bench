@@ -615,10 +615,13 @@ This project is released under the [MIT license](./LICENSE). Parts of this proje
 # Citation
 If you find our work useful, please consider citing us!
 ```bibtex
-@inproceedings{xu2025verti,
-  title={Verti-bench: A general and scalable off-road mobility benchmark for vertically challenging terrain},
-  author={Xu, Tong and Pan, Chenhui and Rao, Madhan B and Datar, Aniket and Pokhrel, Anuj and Lu, Yuanjie and Xiao, Xuesu},
-  booktitle={Robotics: Science and Systems (RSS) 2025},
-  year={2025},
+@INPROCEEDINGS{XuT-RSS-25, 
+    AUTHOR    = {Tong Xu AND Chenhui Pan AND Madhan B. Rao AND Aniket Datar AND Anuj Pokhrel AND Yuanjie Lu AND Xuesu Xiao}, 
+    TITLE     = {{Verti-Bench: A General and Scalable Off-Road Mobility Benchmark for Vertically Challenging Terrain}}, 
+    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    YEAR      = {2025}, 
+    ADDRESS   = {LosAngeles, CA, USA}, 
+    MONTH     = {June}, 
+    DOI       = {10.15607/RSS.2025.XXI.138} 
 }
 ```
