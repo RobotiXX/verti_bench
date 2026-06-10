@@ -89,7 +89,7 @@ conda install -c conda-forge mkl=2020
 ```
 pip uninstall numpy
 conda install -c conda-forge numpy=1.24.0
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip install pyyaml scipy
 pip install evdev
 ```
@@ -198,7 +198,7 @@ pip install stable-baselines3[extra]
 ```
 pip uninstall numpy
 conda install -c conda-forge numpy=1.24.0
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip install pyyaml scipy
 pip install evdev
 ```
